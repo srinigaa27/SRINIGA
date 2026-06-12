@@ -44,4 +44,9 @@ console.log(c--)
 console.log(++c)
 console.log(--c)
 
+//tenary operator
+console.log("tenary operator")
+var result = (a > b) ? "a is greater":"b is greater"
+console.log(result)
+
 
