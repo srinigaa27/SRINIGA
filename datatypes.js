@@ -35,3 +35,19 @@ console.log(undefined)
 console.log("Symbol")
 var Symbolvalue=Symbol('Symbol')
 console.log(Symbol)
+
+console.log("non-primitive datatype")
+
+//array
+console.log("array")
+var number = [1,2,3,4,5]
+console.log(number.length)
+console.log(number[3])
+
+//object
+console.log("object")
+var person ={
+    name:"sree",
+    age:20
+}
+console.log(person)
