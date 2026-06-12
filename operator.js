@@ -32,9 +32,16 @@ console.log(a<=b)
 console.log("logical operator")
 var a=10
 var b=20
-console.log(a>0 && b>0)
-console.log(a>0|| b>0)
-console.log(!(a>0))
+console.log(a>0 && b>0) //o/p - true
+console.log(a>0|| b>0) //o/p - true
+console.log(!(a>0))  //o/p - false
 
+//unary operator
+console.log("unary operator")
+var c=10
+console.log(c++)
+console.log(c--)
+console.log(++c)
+console.log(--c)
 
 
