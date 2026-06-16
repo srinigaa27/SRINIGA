@@ -6,6 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <input type="text" id="studentName">
+    <button onclick="saveData">Save</button>
+    <button onclick="getData">Get Data</button>
+    <p id="result"></p>
+    <script>
+        function saveData(){
+            let name =
+            document.getElementById(
+                "studentName"
+            ).value;//given data in input
+        
+        localStorage.getItem(
+            "student",
+            name
+        );
+        alert ("data saved");
+        }
+        function getData(){
+            let student =
+            localStorage.getItem(
+                "student"
+            );//student = VETIAS
+
+            document
+            .getElementById("result")
+            .innerHTML = student;
+        }
+    </script>
 </body>
 </html>
