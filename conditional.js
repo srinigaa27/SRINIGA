@@ -28,8 +28,4 @@ switch(signal){
 
     default:
     console.log("outside if")
-    
-
-
-
 }
